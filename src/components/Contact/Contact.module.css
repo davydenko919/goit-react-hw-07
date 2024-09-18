@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    width: 300px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.button {
+    text-decoration: none; 
+    cursor: pointer; /* Курсор-указатель при наведении */
+    width: 80px;
+    height: 40px;
+    
+}
+
+.svg{
+    margin: 0;
+    margin-top: 17px;
+}
